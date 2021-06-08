@@ -125,7 +125,12 @@ article p {
 /* Akhir CSS Sejarah */
 /* <----------------Batas--------------------> */
 /* Awal CSS Pancasila */
-
+.sila-pancasila {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
 /* Akhir CSS Pancasila */
 /* <----------------Batas--------------------> */
 /* AWal CSS Tentang Kami */
