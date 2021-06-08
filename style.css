@@ -1,0 +1,137 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Lucida Grande";
+}
+
+a {
+  text-decoration: none;
+}
+
+/* -------------------Ketik code dibawah-------------------------- */
+
+/* Awal CSS Header */
+header {
+  height: 65px;
+  width: 100%;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  /*box-shadow: 2px 5px whitesmoke;*/
+  border-bottom: 5px solid whitesmoke;
+}
+
+.logo {
+  width: 90px;
+  margin-top: -15px;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  margin-right: 25px;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: red;
+  display: block;
+  float: left;
+  transition: all 1s;
+}
+
+.header-right a:hover {
+  background-color: darkred;
+  transition: all 0.8;
+}
+/* Akhir CSS Header */
+/* <----------------Batas--------------------> */
+/* Awal CSS Sejarah */
+
+.top-wrapper {
+  height: 900px;
+}
+
+.top-wrapper h1 {
+  opacity: 0.7;
+  font-size: 45px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+}
+
+.top-wrapper p {
+  opacity: 0.8;
+  margin-bottom: 3px;
+}
+
+.jumbotron {
+  padding: 180px 0 100px 0;
+  color: #ffffff;
+  background-image: url("images/bg1.jpeg");
+  background-size: cover;
+  height: 650px;
+  text-align: center;
+}
+
+.btn-detail {
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  text-align: center;
+  padding: 15px 40px;
+  background-color: #f73939;
+  cursor: pointer;
+  box-shadow: 0 7px #e1e2e2;
+  color: white;
+  margin-top: 40px;
+}
+
+.btn-detail:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 20px;
+  margin: 20px;
+}
+
+.content-img {
+  max-height: 300px;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+article p {
+  text-align: justify;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+}
+
+/* Akhir CSS Sejarah */
+/* <----------------Batas--------------------> */
+/* Awal CSS Pancasila */
+
+/* Akhir CSS Pancasila */
+/* <----------------Batas--------------------> */
+/* AWal CSS Tentang Kami */
+
+/* Akhir CSS Tentang Kami */
+/* <----------------Batas--------------------> */
+/* Awal CSS Footer */
+
+/* Akhir CSS Footer */
