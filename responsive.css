@@ -28,7 +28,12 @@
 /* Untuk Smartphone */
 @media (max-width: 670px) {
   /* Awal CSS Header */
-
+.header-right {
+    display: none;
+  }
+.menu-icon {
+    display: block;
+  }
   /* Akhir CSS Header */
   /* <----------------Batas--------------------> */
   /* Awal CSS Sejarah */
