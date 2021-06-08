@@ -1,0 +1,69 @@
+/* -------------------Ketik code CSS Responsive dibawah-------------------------- */
+
+/* Untuk Tablet */
+@media (max-width: 1000px) {
+  /* Awal CSS Header */
+
+  /* Akhir CSS Header */
+  /* <----------------Batas--------------------> */
+  /* Awal CSS Sejarah */
+  .top-wrapper h1 {
+    font-size: 32px;
+  }
+  /* Akhir CSS Sejarah */
+  /* <----------------Batas--------------------> */
+  /* Awal CSS Pancasila */
+
+  /* Akhir CSS Pancasila */
+  /* <----------------Batas--------------------> */
+  /* AWal CSS Tentang Kami */
+
+  /* Akhir CSS Tentang Kami */
+  /* <----------------Batas--------------------> */
+  /* Awal CSS Footer */
+
+  /* Akhir CSS Footer */
+}
+
+/* Untuk Smartphone */
+@media (max-width: 670px) {
+  /* Awal CSS Header */
+
+  /* Akhir CSS Header */
+  /* <----------------Batas--------------------> */
+  /* Awal CSS Sejarah */
+  .jumbotron {
+    height: 500px;
+    background-position-x: 10%;
+    padding: 100px 10px 50px 10px;
+    text-align: left;
+  }
+
+  .top-wrapper h1 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  .top-wrapper p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .btn-detail {
+    width: 100%;
+    margin-top: 25px;
+  }
+  /* Akhir CSS Sejarah */
+  /* <----------------Batas--------------------> */
+  /* Awal CSS Pancasila */
+
+  /* Akhir CSS Pancasila */
+  /* <----------------Batas--------------------> */
+  /* AWal CSS Tentang Kami */
+
+  /* Akhir CSS Tentang Kami */
+  /* <----------------Batas--------------------> */
+  /* Awal CSS Footer */
+
+  /* Akhir CSS Footer */
+}
